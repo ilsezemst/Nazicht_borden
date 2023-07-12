@@ -149,6 +149,11 @@
 				<Layers>GH:openstreetmap</Layers>
 				<Styles></Styles>
 			</TileSet>
+			<CustomLayer>
+				<Name>GH:nazicht_gele_naambordjes_20230710</Name>
+				<Title>nazicht_gele_naambordjes_20230710</Title>
+				<Operation type="csv">1</Operation>
+			</CustomLayer>
 		</VendorSpecificCapabilities>
 		<UserDefinedSymbolization SupportSLD="1" UserLayer="1" UserStyle="1" RemoteWFS="1"></UserDefinedSymbolization>
 		<Layer>
@@ -157,7 +162,7 @@
 				<Title>tw_zemst</Title>
 				<Abstract>GH:tw_zemst ABSTRACT</Abstract>
 				<KeywordList>
-					<Keyword>group˸shp˸˸˸disabledownload˸notListing˸˸maxZoom˸5</Keyword>
+					<Keyword>group˸shp˸˸˸disabledownload˸notListing˸˸maxZoom˸1</Keyword>
 				</KeywordList>
 				<SRS>EPSG:4326</SRS>
 				<LatLonBoundingBox minx="4.378152560927529" miny="50.94834326976011" maxx="4.528539548756768" maxy="51.00677734117872"></LatLonBoundingBox>
@@ -177,7 +182,7 @@
 				<Title>openstreetmap</Title>
 				<Abstract>GH:openstreetmap ABSTRACT</Abstract>
 				<KeywordList>
-					<Keyword>group˸tif˸˸˸disabledownload˸notListing˸˸maxZoom˸5</Keyword>
+					<Keyword>group˸tif˸˸˸disabledownload˸notListing˸˸maxZoom˸1</Keyword>
 				</KeywordList>
 				<SRS>EPSG:4326</SRS>
 				<LatLonBoundingBox minx="-180.0" miny="-85.0511287798066" maxx="179.99999999999997" maxy="85.0511287798066"></LatLonBoundingBox>
